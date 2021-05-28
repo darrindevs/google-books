@@ -1,6 +1,9 @@
 {
   "name": "client",
   "version": "0.1.0",
+  "engines": {
+    "node": "14.x"
+  },
   "license": "CC-BY-1.0",
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.4",

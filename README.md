@@ -2,7 +2,7 @@
 
 Use the power of Google Books to search for your favorite books! 
 
-[Deployed App](https://tranquil-crag-36037.herokuapp.com/)
+[Deployed App](https://ghostly-bacon.herokuapp.com/)
 
 ## Technologies Used
 

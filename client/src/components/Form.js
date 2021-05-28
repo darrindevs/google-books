@@ -1,5 +1,8 @@
 // ✅ 
 import React from "react";
+//import styles 
+import "../App.css"
+
 
 function Form({ q, handleInputChange, handleFormSubmit }) {
   return (
@@ -21,7 +24,7 @@ function Form({ q, handleInputChange, handleFormSubmit }) {
         <button
           onClick={handleFormSubmit}
           type="submit"
-          className="btn btn-sm btn-primary float-right"
+          className="btn btn-sm btn-primary mt-3"
         >
           Search
         </button>

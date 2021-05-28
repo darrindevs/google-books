@@ -1,5 +1,8 @@
 // ✅ 
 import React from "react";
+//import styles 
+import "../App.css"
+
 
 function Card({ icon, title, children }) {
   return (

@@ -2,6 +2,9 @@
 import React from "react";
 import { Col, Row, Container } from "../Components/Grid";
 import Jumbotron from "../Components/Jumbotron";
+//import styles 
+import "../App.css"
+
 
 function NoMatch() {
   return (

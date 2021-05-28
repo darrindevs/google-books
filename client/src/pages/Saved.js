@@ -7,6 +7,9 @@ import { Col, Row, Container } from "../Components/Grid";
 import { List } from "../Components/List";
 // import API 
 import API from "../utils/API";
+//import styles 
+import "../App.css"
+
 
 
 
@@ -41,10 +44,10 @@ class SavedBooks extends Component {
         <Row>
           <Col size="md-12">
             <Jumbotron>
-              <h1 className="text-center">
+              <h3 className="text-center">
                 <strong style={{color:'white'}}> Google Books Search</strong>
-              </h1>
-              <h2 className="text-center" style={{color:'white'}}>Search for and Save Books of Interest.</h2>
+              </h3>
+              <h2 className="text-center" style={{color:'white'}}>Search for a book!</h2>
             </Jumbotron>
           </Col>
         </Row>

@@ -1,5 +1,8 @@
 // ✅
 import React from "react";
+//import styles 
+import "../App.css"
+
 
 export function Container({ fluid, children }) {
   return <div className={`container${fluid ? "-fluid" : ""}`}>{children}</div>;

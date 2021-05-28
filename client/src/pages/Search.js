@@ -9,6 +9,8 @@ import { Col, Row, Container } from '../Components/Grid';
 import { List } from '../Components/List';
 // import API 
 import API from "../utils/API";
+//import styles 
+import "../App.css"
 
 
 // Search Books class component

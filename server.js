@@ -13,12 +13,15 @@ const app = express();
 
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
-app.use(routes);
+
 
 
 if (process.env.NODE_ENV === "production") {
   app.use(express.static("client/build"));
 }
+
+//make sure this is after process.env above
+app.use(routes);
 
 // mongodb
 mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/google-books",{
